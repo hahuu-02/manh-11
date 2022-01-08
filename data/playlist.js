@@ -49,6 +49,13 @@ const app = {
             song: './data/music-playlist/có hẹn với thanh xuân - MONSTAR _ official music video.mp3',
         },
         {
+            name: 'Charlie Puth',
+            author: 'Diệu Linh',
+            time: '4:19',
+            image:'./assets/img/imgae/2934468294de598000cf.jpg' ,
+            song: './data/music-playlist/Charlie Puth - Attention _Official Video_.mp3',
+        },
+        {
             name: 'Yêu Đừng Sợ Đau',
             author: 'Diệu Linh',
             time: '3:52',
@@ -76,11 +83,11 @@ const app = {
             song: './data/music-playlist/Đã Hết Rồi (Lofi Ver.) - Tika Tùng Anh x Linh Hương Luz x Freak D.mp3',
         },
         {
-            name: 'Chẳngg Thể Tìm Được Em',
+            name: 'Until You',
             author: 'PhúcXP',
             time: '5:47',
             image:'./assets/img/imgae/e178b5db6787aad9f396.jpg' ,
-            song: './data/music-playlist/Chẳng Thể Tìm Được Em - PhucXp ft. Freak D _ Official Audio.mp3',
+            song: './data/music-playlist/Shayne Ward - Until You (Audio).mp3',
         },
         
       
