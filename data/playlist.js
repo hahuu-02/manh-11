@@ -63,6 +63,13 @@ const app = {
             song: './data/music-playlist/Yêu Đừng Sợ Đau (Lofi Ver.) - Ngô Lan Hương x Freak D.mp3',
         },
         {
+            name: 'Dịu Dàng Em Dến',
+            author: 'Diệu Linh',
+            time: '3:52',
+            image:'./assets/img/imgae/3f8cbb77692ba475fd3a.jpg',
+            song: './data/music-playlist/Dịu Dàng Em Đến - ERIK x Ryan「Lo - Fi Version by 1 9 6 7」_ Official Music Video.mp3',
+        },
+        {
             name: 'Cô Ấy Nói',
             author: 'Diệu Linh',
             time: '3:57',
@@ -78,13 +85,13 @@ const app = {
         },
         {
             name: 'Đã Hết Rồi',
-            author: 'Quốc Thiên',
+            author: 'Diệu Linh',
             image:'./assets/img/imgae/8f6b5f9c8dc0409e19d1.jpg' ,
             song: './data/music-playlist/Đã Hết Rồi (Lofi Ver.) - Tika Tùng Anh x Linh Hương Luz x Freak D.mp3',
         },
         {
             name: 'Until You',
-            author: 'PhúcXP',
+            author: 'Diệu Linh',
             time: '5:47',
             image:'./assets/img/imgae/e178b5db6787aad9f396.jpg' ,
             song: './data/music-playlist/Shayne Ward - Until You (Audio).mp3',
