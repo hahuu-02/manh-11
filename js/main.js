@@ -11,14 +11,14 @@ ulElement.onmousedown = function(e) {
 
 const logOut = u('.app__header-options')
 //  NOTE
-logOut.onclick = function(e) {
-    e.stopPropagation();
-    logOut.classList.add('active')
+// logOut.onclick = function(e) {
+//     e.stopPropagation();
+//     logOut.classList.add('active')
     
-    u('.app').onclick = function() {
-        u('.app__header-options').classList.remove('active')
-    }
-}
+//     u('.app').onclick = function() {
+//         u('.app__header-options').classList.remove('active')
+//     }
+// }
 
 // chức năng hiện message (chức năng chưa phát triển)
 function toast({

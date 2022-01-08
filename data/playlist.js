@@ -70,6 +70,13 @@ const app = {
             song: './data/music-playlist/Dịu Dàng Em Đến - ERIK x Ryan「Lo - Fi Version by 1 9 6 7」_ Official Music Video.mp3',
         },
         {
+            name: 'Buồn Nghe Mấy Bài Lofi Này Nhé',
+            author: 'Diệu Linh',
+            time: '3:52',
+            image:'./assets/img/imgae/3f8cbb77692ba475fd3a.jpg',
+            song: './data/music-playlist/lofi.mp3',
+        },
+        {
             name: 'Cô Ấy Nói',
             author: 'Diệu Linh',
             time: '3:57',

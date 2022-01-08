@@ -27,6 +27,13 @@
     display: flex;
     align-items: center;
   }
+
+  .sidebar__logo-name {
+      text-decoration: none;
+      color: plum;
+      font-weight: 600;
+      font-size: 1.8rem;
+  }
   
   .sidebar__logo-link {
      width: 100%;
@@ -449,7 +456,7 @@
     margin-left: 240px;
     flex: 1;
     display: none;
-    background: url('');
+    
     /* background-color: var(--container__bg-color); */
 } 
 
@@ -484,7 +491,7 @@
 }
 .app__header-name {
     margin: auto;
-    color: var(--white-color);
+    color: #000;
     font-size: 3rem;
     font-weight: 700;
     margin-top: 24px;
@@ -580,7 +587,7 @@
     padding: 7px 25px;
     text-align: center;
     border-radius: 15px;
-    color: var(--white-color);
+    color: #000;
     -webkit-tap-highlight-color: transparent;
 }
 .ui__list-item span {
@@ -595,7 +602,7 @@
 }
 
 .ui__list-item.active {
-    background-color: var(--active__bg-color);
+    background-color: var(--pink-color);
     border-radius: 20px;  
 }
 
@@ -791,6 +798,10 @@
     height: 100%;
     width: 60%;
 }
+.img--img {
+    width: 150px;
+    height: auto;
+}
 
 .song__list-header {
     margin-left: 12px;
@@ -801,7 +812,7 @@
 }
 .song__list-conten-title {
     padding-top: 4px;
-    color: var(--white-color);
+    color: #000;
     font-size: 1.4rem;
     font-weight: 600;
     margin: 0;
@@ -974,7 +985,6 @@
     height: 100%;
 }
 /* =============================================== */
-.container__playlist,
 .container__uploat,
 .container__abum,
 .container__MV,
@@ -990,9 +1000,23 @@
     line-height: 6rem;
     display: none;
 }
+
+.container__playlist {
+    height: 2000px;
+
+}
+
 .no-active {
     margin: 70px 0;
     height: 1000px;
+}
+
+
+.playlist--phim {
+    display: block;
+    margin: 50px 40px;
+    font-size: 2.4rem;
+    color: rgb(33, 235, 15);
 }
 
 .chua-viet {
