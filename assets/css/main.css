@@ -449,7 +449,8 @@
     margin-left: 240px;
     flex: 1;
     display: none;
-    background-color: var(--container__bg-color);
+    background: url('');
+    /* background-color: var(--container__bg-color); */
 } 
 
 .app__.active {
