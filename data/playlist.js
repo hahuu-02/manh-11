@@ -49,7 +49,7 @@ const app = {
             song: './data/music-playlist/có hẹn với thanh xuân - MONSTAR _ official music video.mp3',
         },
         {
-            name: 'Charlie Puth',
+            name: 'Attention',
             author: 'Diệu Linh',
             time: '4:19',
             image:'./assets/img/imgae/2934468294de598000cf.jpg' ,
@@ -89,6 +89,13 @@ const app = {
             time: '5:11',
             image:'./assets/img/imgae/829edd4d0f11c24f9b00.jpg' ,
             song: './data/music-playlist/Quên Người Đã Quá Yêu (Lofi Ver.) - Hà Duy Thái x Freak D x DC Tâm.mp3',
+        },
+        {
+            name: 'TẶNG LINH MẤY BÀI HÁT MẠNH THÍCH NHÁ ..',
+            author:' Diệu Linh',
+            time: '5:11',
+            image:'./assets/img/imgae/829edd4d0f11c24f9b00.jpg' ,
+            song: './data/music-playlist/die.mp3',
         },
         {
             name: 'Đã Hết Rồi',
