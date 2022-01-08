@@ -1,0 +1,292 @@
+/* Mobie and taplet */
+
+@media (max-width: 1023px) {
+  .hide-on-tablet-mobile {
+    display: none;
+  }
+  
+  /*FOOTER__FULL*/
+  .player__control-tab {
+    width: 94%;
+  }
+}
+
+/* TAPLET */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+  .hide-on-tablet {
+    display: none;
+  }
+  /* App__sidebar */
+  .app__sidebar {
+    position: fixed;
+    height: calc(100% - 90px);
+    width: 70px;
+    z-index: 2;
+  }
+
+  .sidebar--expand {
+    width: 170px;
+  }
+
+  .sidebar__small-logo {
+    display: block;
+  }
+  .sidebar__item-link {
+    padding: 15px 18px;
+  }
+
+  .sidebar__subnav {
+    height: calc(100% - 70px - 90px - 265px);
+  }
+  .sidebar__menu-item {
+    margin-left: 20px;
+  }
+
+
+
+
+
+  .sidebar__expand {
+    display: block;
+  }
+
+ /*HEADER  */
+  .header {
+    width: calc(100% - 70px);
+  }
+
+
+  .app__container {
+    margin-left: 70px;
+  }
+
+}
+
+/* MOBIE */
+
+@media (max-width: 739px) {
+  .hide-on-mobile {
+    display: none;
+  }
+  
+ /* App__sidebar */
+ .app {
+   overflow: hidden;
+ }
+  .app__sidebar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    right: 0;
+    height: 45px;
+    display: block;
+    z-index: 1;
+    /* background-color: chartreuse; */
+  }
+
+  .sidebar__nav {
+    margin: 0;
+  }
+  .sidebar__nav-list {
+    margin-top: 2px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .sidebar__nav-list--separate::before {
+    display: none;
+  }
+
+  .sidebar__item-link {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    font-weight: 400;
+  }
+
+  .sidebar__item-link i {
+    font-size: 1.8rem;
+    color: var(--tab-color); 
+ }
+  .sidebar__item-link span {
+   padding: 0;
+   margin: 0;
+   color: var(--white-color);
+   font-weight: 400;
+   font-size: 1.1rem;
+   transform: translateY(-5px);
+ }
+
+ .sidebar__nav-item.active {
+   border: none;
+   
+  border-bottom: 2px solid rgb(251, 255, 0);
+  background-color: var(--button__bg-color);
+ }
+
+
+
+
+
+
+
+
+ /* HEADER */
+ .app__header {
+   height: 195px;
+ }
+  .header {
+    width: 100%;
+  }
+
+  .header__nav-list {
+    margin-right: 10px;
+  }
+
+  .header__item-icon {
+    margin-left: 14px;
+  }
+
+
+
+
+ /* CONTAINER */
+  .app__container {
+    width: 100%;
+    margin-left: 0;
+  }
+  .ui__list-item {
+    min-width: calc(100vw / 5);
+    padding: 5px 5px;
+  }
+
+  .conten__background {
+    display: none;
+  }
+
+  .conten__music-header-title, .music__header-icon {
+    padding-left: 0px;
+   
+  }
+  .button-function  {
+    margin: 0;
+  }  
+
+  .conten__mp3 {
+    margin: 10px 0;
+  }
+  
+  .conten__song {
+    padding: 0;
+  }
+
+  .song__list-conten {
+    width: 80%;
+  }
+  .song__list-time {
+    width: 0;
+ }
+
+ .song__list-item {
+   margin: 0;
+ }
+
+  /* FOOTER */
+  .app__footer {
+    height: 50px;
+    bottom: 45px;
+  }
+
+  .footer__player {
+    padding: 0 10px;
+    height: 50px;
+  }
+
+  .player__container {
+    flex: 2.2;
+  }
+
+  .player__title {
+    padding: 8px 0 0 10px;
+    max-width: 170px;
+    height: 100%;
+  }
+  
+  .player__title-song {
+  
+  }
+  .player__control {
+    flex: 1;
+    width: 140px;
+  }
+
+  .player--btn {
+    width: 34px;
+    height: 34px;
+  }
+
+  .icon-play,
+  .icon-pause,
+  .icon--next {
+    font-size: 2.2rem;
+  }
+  .player__control-item {
+    width: 100%;
+    padding: 0;
+  }
+
+  .player__container-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .player__control-option-full {
+    width: 230px;
+  }
+  /* ========== */
+  /* footer__full */
+  .footer__header-logo {
+    width: 56px;
+  }
+  .footer__header-img {
+    margin: 4px 0px;
+}
+
+  .footer__header-nav {
+    width: 240px;
+  }
+  .footer__nav-item {
+    padding: 8px;
+  }
+  .footer__header-menu {
+    width: 56px;
+  }
+  .footer__menu {
+    width: 56px;
+  }
+      /*  */
+  .footer__container-logo {
+    height: 300px;
+  }
+
+  .footer__container-img {
+    width: 270px;
+    height: 270px;
+  }
+
+
+
+
+
+
+
+
+
+  /*  */
+  .chua-viet {
+    margin-left: 40px;
+  }
+}
